@@ -43,5 +43,6 @@ export default defineConfig({
     },
     plugins: [
         phasermsg()
-    ]
+    ],
+    assetsInclude: ['**/*.xml', '**/*.png']
 });
